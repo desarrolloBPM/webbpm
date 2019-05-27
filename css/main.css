@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-size: 30px;
-  margin-bottom: 20px;
 }
 
 h3 {
@@ -74,9 +73,9 @@ h3 {
 
 a {
   text-decoration: none;
-  -webkit-transition: 300ms;
+  -webkit-transition: 100ms;
   -moz-transition: 300ms;
-  -o-transition: 300ms;
+  -o-transition: 100ms;
   transition: 300ms;
 }
 
@@ -87,11 +86,11 @@ a:hover {
 }
 
 section {
-  padding: 90px 0;
+  padding: 10px 0;
 }
 
 .heading {
-  padding-bottom:90px;
+  padding-bottom:10px;
 }
 
 .preloader {
@@ -101,7 +100,7 @@ section {
   right: 0;
   bottom: 0;
   z-index: 999999;
-  background: #fff;
+  background:white;
 }
 
 .preloader > i {
@@ -310,6 +309,14 @@ section {
 .service-info h3 {
   margin-top: 35px;
 }
+/*************************
+********Industry CSS******
+**************************/
+#industry {
+  background-image: url();
+  background-color: rgba(0,0,0,.7);
+  padding: 60px 0;
+}
 
 /*************************
 ********About CSS*******
@@ -335,29 +342,55 @@ section {
 #about-us h1 {
   margin-bottom: 30px;
 }
+/*************************
+********Technologies CSS**
+*************************/
 
-.progress{
-  height: 20px;
-  background-color: #fff;
-  border-radius: 0;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  margin-bottom: 25px;
+.services-content-list-wrapper--tech .services-content-list__item-img {
+  max-height: 60px;
 }
-
-.progress-bar{
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  text-align: right;
-  padding-right: 12px;
-  font-size: 12px;
-  font-weight: 600;
+.services-content-list-wrapper--tech .services-content-list__item-img {
+  max-height: 55px;
 }
-
-
-.progress .progress-bar.six-sec-ease-in-out {
-  -webkit-transition: width 2s ease-in-out;
-  transition:  width 2s ease-in-out;
+.services-content-list__item-img {
+  max-height: 9.688rem;
+}
+.img-responsive {
+  display: block;
+  height: auto;
+  margin: -14px auto;
+  max-height: 400%;
+  position: relative;
+  width: auto;
+}
+.services-content-list-wrapper--tech .services-content-list {
+  text-align: center;
+}
+.services-content-list-wrapper--tech .services-content-list {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.services-content-list-wrapper--tech .services-content-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: -10px;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.services-content-list-wrapper--tech .services-content-list {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 /*************************
